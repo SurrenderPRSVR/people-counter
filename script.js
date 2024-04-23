@@ -1,82 +1,47 @@
-// document.getElementById("count-el").innerText = 5
-
-//let firstBatch = 5
-//let secondBatch = 7
-//let count = firstBatch + secondBatch
-//console.log(count)
-
-
-//let myAge = 38
-//let humanDogRatio = 7
-//let myDogAge = myAge * humanDogRatio
-//console.log(myDogAge)
-
-
-//let count = 5
-//count = count + 1 // = 6
-//console.log(count)
-
-
-
 // intialize the count as 0
 // listen for clicks on the increment button
 // incremement the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
-let count = 0
 
-function incrementCount() {
-    
-    count = count + 1
-    console.log(count)
+// let countEl = document.getElementById("count-el")
+// let count = 0
 
-}
-
-incrementCount()
+// function incrementCount() {
+//     count = count + 1
+//     countEl.innerText = count
+// }
 
 
+// function save() {
+//      console.log(count)
+// }
+
+// save()
 
 
-//function increment() {
-    //console.log("The button was clicked")
-//}
+// let username = "per"
+// let message = "You have three new notifications"
 
+// console.log(message + ", " +  username + "!")
 
-//create a function that logs out the number 42 to the console
+// let myName = "Heather"
+// let greeting = "Hi, my name is "
+// let myGreeting = myName + greeting
+// console.log(myGreeting)
 
-//function log42() {
-    //console.log(42);
-//}
+// let points = 4
+// let bonusPoints = "10"
+// let totalPoints = points + bonusPoints
 
-//log42();
+// console.log(4 + 5)
+// console.log("2" + "4")
+// console.log("5" + 1)
+// console.log(100 + "100")
 
-//ceate a function that logs out the sum of all the lap times
+// let welcomeEl = document.getElementById("welcome-el")
+// let myName = "Heather"
+// let greeting = "Hi, my name is "
 
-//let lap1 = 34
-//let lap2 = 33
-//let lap3 = 36
-
-//function logLapTime() {
-    //console.log(lap1 + lap2 + lap3)
-    
-//}
-
-//logLapTime()
-
-
-//create a function that increments the lapsCompleted variable with one
-//run it three times
-
-//let lapsCompleted = 0
-
-//function incrementLap() {
-    //lapsCompleted = lapsCompleted + 1
-    
-//}
-
-
-//incrementLap()
-//incrementLap()
-//incrementLap()
-
+// welcomeEl.innerText = greeting + myName
 
